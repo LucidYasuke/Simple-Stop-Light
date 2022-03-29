@@ -19,6 +19,7 @@ Engine::Engine()
 Engine::~Engine()
 {
     delete this->window;
+    delete this->light;
 }
 
 void Engine::updateDeltaTime()
